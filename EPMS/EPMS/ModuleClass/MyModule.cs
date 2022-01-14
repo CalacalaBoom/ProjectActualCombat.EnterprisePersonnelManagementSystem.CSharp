@@ -7,6 +7,11 @@ using System.Windows.Forms;
 using EPMS.DataEntity;
 using System.IO;
 using Sunny.UI;
+using MSWord = Microsoft.Office.Interop.Word;
+using System.Reflection;
+using Microsoft.Office.Interop.Word;
+using MSExcel = Microsoft.Office.Interop.Excel;
+using Microsoft.Office.Interop.Excel;
 
 namespace EPMS.ModuleClass
 {
@@ -15,6 +20,8 @@ namespace EPMS.ModuleClass
         public static bool FormHelper = false;
         public static string username;//传递登录名
         public static Byte[] imgBytesln;//将图片保存为字节数组
+        public static bool mainFormCon = true;
+
 
         //将图片转化为字节数组
         public void Read_Image(OpenFileDialog openF, PictureBox MyImage,UITextBox txt)
@@ -37,6 +44,12 @@ namespace EPMS.ModuleClass
                 }
             }
         }
-        
+
+        //excel合并单元格
+        public void Merge(Worksheet excelSheet,int s1, int s2, int e1, int e2)
+        {
+            MSExcel.Range range = excelSheet.Range[excelSheet.Cells[s1, s2], excelSheet.Cells[e1, e2]];
+            range.Merge(true);
+        }
     }
 }

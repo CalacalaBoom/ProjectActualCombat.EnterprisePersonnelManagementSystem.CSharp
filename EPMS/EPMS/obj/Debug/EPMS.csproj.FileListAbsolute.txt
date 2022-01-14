@@ -21,3 +21,5 @@ F:\workspace\C#\EnterprisePersonnelManagementSystem\EPMS\EPMS\obj\Debug\EPMS.F_L
 F:\workspace\C#\EnterprisePersonnelManagementSystem\EPMS\EPMS\obj\Debug\EPMS.Main.resources
 F:\workspace\C#\EnterprisePersonnelManagementSystem\EPMS\EPMS\obj\Debug\EPMS.F_FileMan.resources
 F:\workspace\C#\EnterprisePersonnelManagementSystem\EPMS\EPMS\obj\Debug\EPMS.csprojAssemblyReference.cache
+F:\workspace\C#\EnterprisePersonnelManagementSystem\EPMS\EPMS\obj\Debug\EPMS.csproj.ResolveComReference.cache
+F:\workspace\C#\EnterprisePersonnelManagementSystem\EPMS\EPMS\obj\Debug\EPMS.Form1.resources

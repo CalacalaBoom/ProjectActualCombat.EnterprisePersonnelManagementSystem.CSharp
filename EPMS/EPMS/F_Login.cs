@@ -24,6 +24,7 @@ namespace EPMS
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            UIWaitFormService.ShowWaitForm("登陆中");
                 using (db_pwmsEntities db = new db_pwmsEntities())
                 {
                     tb_login _loginUser = db.tb_login.Where(W => W.Name == txtName.Text).FirstOrDefault();
@@ -34,6 +35,7 @@ namespace EPMS
                         {
                             MyModule.FormHelper = true;
                             MyModule.username = txtName.Text;
+                            UIWaitFormService.HideWaitForm();
                             Close();
                         }
                         else
@@ -41,14 +43,16 @@ namespace EPMS
                             UIMessageTip.Show("密码错误", TipStyle.Red);
                             txtName.Text = null;
                             txtPass.Text = null;
-                        }
+                            UIWaitFormService.HideWaitForm();
+                    }
                     }
                     else
                     {
                         UIMessageTip.Show("没有该用户", TipStyle.Red);
                         txtName.Text = null;
                         txtPass.Text = null;
-                    }
+                        UIWaitFormService.HideWaitForm();
+                }
                 }
         }
 

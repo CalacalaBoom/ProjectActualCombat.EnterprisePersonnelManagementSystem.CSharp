@@ -28,88 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode145 = new System.Windows.Forms.TreeNode("民族类别设置");
-            System.Windows.Forms.TreeNode treeNode146 = new System.Windows.Forms.TreeNode("职工类别设置");
-            System.Windows.Forms.TreeNode treeNode147 = new System.Windows.Forms.TreeNode("文化类别设置");
-            System.Windows.Forms.TreeNode treeNode148 = new System.Windows.Forms.TreeNode("政治类别设置");
-            System.Windows.Forms.TreeNode treeNode149 = new System.Windows.Forms.TreeNode("部门类别设置");
-            System.Windows.Forms.TreeNode treeNode150 = new System.Windows.Forms.TreeNode("工资类别设置");
-            System.Windows.Forms.TreeNode treeNode151 = new System.Windows.Forms.TreeNode("职务类别设置");
-            System.Windows.Forms.TreeNode treeNode152 = new System.Windows.Forms.TreeNode("职称类别设置");
-            System.Windows.Forms.TreeNode treeNode153 = new System.Windows.Forms.TreeNode("奖惩类别设置");
-            System.Windows.Forms.TreeNode treeNode154 = new System.Windows.Forms.TreeNode("记事本类别设置");
-            System.Windows.Forms.TreeNode treeNode155 = new System.Windows.Forms.TreeNode("基础数据", new System.Windows.Forms.TreeNode[] {
-            treeNode145,
-            treeNode146,
-            treeNode147,
-            treeNode148,
-            treeNode149,
-            treeNode150,
-            treeNode151,
-            treeNode152,
-            treeNode153,
-            treeNode154});
-            System.Windows.Forms.TreeNode treeNode156 = new System.Windows.Forms.TreeNode("员工生日提示");
-            System.Windows.Forms.TreeNode treeNode157 = new System.Windows.Forms.TreeNode("员工合同提示");
-            System.Windows.Forms.TreeNode treeNode158 = new System.Windows.Forms.TreeNode("员工提示信息", new System.Windows.Forms.TreeNode[] {
-            treeNode156,
-            treeNode157});
-            System.Windows.Forms.TreeNode treeNode159 = new System.Windows.Forms.TreeNode("基础信息管理", new System.Windows.Forms.TreeNode[] {
-            treeNode155,
-            treeNode158});
-            System.Windows.Forms.TreeNode treeNode160 = new System.Windows.Forms.TreeNode("人事档案管理");
-            System.Windows.Forms.TreeNode treeNode161 = new System.Windows.Forms.TreeNode("人事资料查询");
-            System.Windows.Forms.TreeNode treeNode162 = new System.Windows.Forms.TreeNode("人事资料统计");
-            System.Windows.Forms.TreeNode treeNode163 = new System.Windows.Forms.TreeNode("人事管理", new System.Windows.Forms.TreeNode[] {
-            treeNode160,
-            treeNode161,
-            treeNode162});
-            System.Windows.Forms.TreeNode treeNode164 = new System.Windows.Forms.TreeNode("备忘记录");
-            System.Windows.Forms.TreeNode treeNode165 = new System.Windows.Forms.TreeNode("数据库维护");
-            System.Windows.Forms.TreeNode treeNode166 = new System.Windows.Forms.TreeNode("工具管理");
-            System.Windows.Forms.TreeNode treeNode167 = new System.Windows.Forms.TreeNode("系统管理");
-            System.Windows.Forms.TreeNode treeNode168 = new System.Windows.Forms.TreeNode("帮助");
-            System.Windows.Forms.TreeNode treeNode169 = new System.Windows.Forms.TreeNode("民族类别设置");
-            System.Windows.Forms.TreeNode treeNode170 = new System.Windows.Forms.TreeNode("职工类别设置");
-            System.Windows.Forms.TreeNode treeNode171 = new System.Windows.Forms.TreeNode("文化程度设置");
-            System.Windows.Forms.TreeNode treeNode172 = new System.Windows.Forms.TreeNode("政治面貌设置");
-            System.Windows.Forms.TreeNode treeNode173 = new System.Windows.Forms.TreeNode("部门类别设置");
-            System.Windows.Forms.TreeNode treeNode174 = new System.Windows.Forms.TreeNode("工资类别设置");
-            System.Windows.Forms.TreeNode treeNode175 = new System.Windows.Forms.TreeNode("职务类别设置");
-            System.Windows.Forms.TreeNode treeNode176 = new System.Windows.Forms.TreeNode("职称类别设置");
-            System.Windows.Forms.TreeNode treeNode177 = new System.Windows.Forms.TreeNode("奖惩类别设置");
-            System.Windows.Forms.TreeNode treeNode178 = new System.Windows.Forms.TreeNode("记事本类别设置");
-            System.Windows.Forms.TreeNode treeNode179 = new System.Windows.Forms.TreeNode("基础数据", new System.Windows.Forms.TreeNode[] {
-            treeNode169,
-            treeNode170,
-            treeNode171,
-            treeNode172,
-            treeNode173,
-            treeNode174,
-            treeNode175,
-            treeNode176,
-            treeNode177,
-            treeNode178});
-            System.Windows.Forms.TreeNode treeNode180 = new System.Windows.Forms.TreeNode("员工生日提示");
-            System.Windows.Forms.TreeNode treeNode181 = new System.Windows.Forms.TreeNode("员工合同提示");
-            System.Windows.Forms.TreeNode treeNode182 = new System.Windows.Forms.TreeNode("员工提示信息", new System.Windows.Forms.TreeNode[] {
-            treeNode180,
-            treeNode181});
-            System.Windows.Forms.TreeNode treeNode183 = new System.Windows.Forms.TreeNode("基础信息管理", new System.Windows.Forms.TreeNode[] {
-            treeNode179,
-            treeNode182});
-            System.Windows.Forms.TreeNode treeNode184 = new System.Windows.Forms.TreeNode("人事档案管理");
-            System.Windows.Forms.TreeNode treeNode185 = new System.Windows.Forms.TreeNode("人事资料查询");
-            System.Windows.Forms.TreeNode treeNode186 = new System.Windows.Forms.TreeNode("人事资料统计");
-            System.Windows.Forms.TreeNode treeNode187 = new System.Windows.Forms.TreeNode("人事管理", new System.Windows.Forms.TreeNode[] {
-            treeNode184,
-            treeNode185,
-            treeNode186});
-            System.Windows.Forms.TreeNode treeNode188 = new System.Windows.Forms.TreeNode("备忘记录");
-            System.Windows.Forms.TreeNode treeNode189 = new System.Windows.Forms.TreeNode("数据库维护");
-            System.Windows.Forms.TreeNode treeNode190 = new System.Windows.Forms.TreeNode("工具管理");
-            System.Windows.Forms.TreeNode treeNode191 = new System.Windows.Forms.TreeNode("系统管理");
-            System.Windows.Forms.TreeNode treeNode192 = new System.Windows.Forms.TreeNode("帮助");
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("民族类别设置");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("职工类别设置");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("文化类别设置");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("政治类别设置");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("部门类别设置");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("工资类别设置");
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("职务类别设置");
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("职称类别设置");
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("奖惩类别设置");
+            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("记事本类别设置");
+            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("基础数据", new System.Windows.Forms.TreeNode[] {
+            treeNode49,
+            treeNode50,
+            treeNode51,
+            treeNode52,
+            treeNode53,
+            treeNode54,
+            treeNode55,
+            treeNode56,
+            treeNode57,
+            treeNode58});
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("员工生日提示");
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("员工合同提示");
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("员工提示信息", new System.Windows.Forms.TreeNode[] {
+            treeNode60,
+            treeNode61});
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("基础信息管理", new System.Windows.Forms.TreeNode[] {
+            treeNode59,
+            treeNode62});
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("人事档案管理");
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("人事资料查询");
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("人事资料统计");
+            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("人事管理", new System.Windows.Forms.TreeNode[] {
+            treeNode64,
+            treeNode65,
+            treeNode66});
+            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("备忘记录");
+            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("数据库维护");
+            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("工具管理");
+            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("系统管理");
+            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("帮助");
+            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("民族类别设置");
+            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("职工类别设置");
+            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("文化程度设置");
+            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("政治面貌设置");
+            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("部门类别设置");
+            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("工资类别设置");
+            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("职务类别设置");
+            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("职称类别设置");
+            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("奖惩类别设置");
+            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("记事本类别设置");
+            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("基础数据", new System.Windows.Forms.TreeNode[] {
+            treeNode73,
+            treeNode74,
+            treeNode75,
+            treeNode76,
+            treeNode77,
+            treeNode78,
+            treeNode79,
+            treeNode80,
+            treeNode81,
+            treeNode82});
+            System.Windows.Forms.TreeNode treeNode84 = new System.Windows.Forms.TreeNode("员工生日提示");
+            System.Windows.Forms.TreeNode treeNode85 = new System.Windows.Forms.TreeNode("员工合同提示");
+            System.Windows.Forms.TreeNode treeNode86 = new System.Windows.Forms.TreeNode("员工提示信息", new System.Windows.Forms.TreeNode[] {
+            treeNode84,
+            treeNode85});
+            System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("基础信息管理", new System.Windows.Forms.TreeNode[] {
+            treeNode83,
+            treeNode86});
+            System.Windows.Forms.TreeNode treeNode88 = new System.Windows.Forms.TreeNode("人事档案管理");
+            System.Windows.Forms.TreeNode treeNode89 = new System.Windows.Forms.TreeNode("人事资料查询");
+            System.Windows.Forms.TreeNode treeNode90 = new System.Windows.Forms.TreeNode("人事资料统计");
+            System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("人事管理", new System.Windows.Forms.TreeNode[] {
+            treeNode88,
+            treeNode89,
+            treeNode90});
+            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("备忘记录");
+            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("数据库维护");
+            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("工具管理");
+            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("系统管理");
+            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("帮助");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.uiNavBar1 = new Sunny.UI.UINavBar();
             this.UNB = new Sunny.UI.UINavBar();
@@ -127,6 +128,7 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -156,82 +158,82 @@
             this.UNB.MenuStyle = Sunny.UI.UIMenuStyle.Custom;
             this.UNB.Name = "UNB";
             this.UNB.NodeAlignment = System.Drawing.StringAlignment.Center;
-            treeNode145.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode145.Name = "Node000";
-            treeNode145.Text = "民族类别设置";
-            treeNode146.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode146.Name = "Node001";
-            treeNode146.Text = "职工类别设置";
-            treeNode147.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode147.Name = "Node002";
-            treeNode147.Text = "文化类别设置";
-            treeNode148.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode148.Name = "Node003";
-            treeNode148.Text = "政治类别设置";
-            treeNode149.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode149.Name = "Node004";
-            treeNode149.Text = "部门类别设置";
-            treeNode150.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode150.Name = "Node005";
-            treeNode150.Text = "工资类别设置";
-            treeNode151.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode151.Name = "Node006";
-            treeNode151.Text = "职务类别设置";
-            treeNode152.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode152.Name = "Node007";
-            treeNode152.Text = "职称类别设置";
-            treeNode153.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode153.Name = "Node008";
-            treeNode153.Text = "奖惩类别设置";
-            treeNode154.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode154.Name = "Node009";
-            treeNode154.Text = "记事本类别设置";
-            treeNode155.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode155.ForeColor = System.Drawing.Color.Black;
-            treeNode155.Name = "Node00";
-            treeNode155.Text = "基础数据";
-            treeNode156.Name = "节点010";
-            treeNode156.Text = "员工生日提示";
-            treeNode157.Name = "Node011";
-            treeNode157.Text = "员工合同提示";
-            treeNode158.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            treeNode158.Name = "Node01";
-            treeNode158.Text = "员工提示信息";
-            treeNode159.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            treeNode159.Name = "Node0";
-            treeNode159.Text = "基础信息管理";
-            treeNode160.Name = "Node10";
-            treeNode160.Text = "人事档案管理";
-            treeNode161.Name = "Node11";
-            treeNode161.Text = "人事资料查询";
-            treeNode162.Name = "Node12";
-            treeNode162.Text = "人事资料统计";
-            treeNode163.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            treeNode163.Name = "Node1";
-            treeNode163.Text = "人事管理";
-            treeNode164.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            treeNode164.Name = "Node2";
-            treeNode164.Text = "备忘记录";
-            treeNode165.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            treeNode165.Name = "Node3";
-            treeNode165.Text = "数据库维护";
-            treeNode166.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            treeNode166.Name = "Node4";
-            treeNode166.Text = "工具管理";
-            treeNode167.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            treeNode167.Name = "Node5";
-            treeNode167.Text = "系统管理";
-            treeNode168.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            treeNode168.Name = "Node6";
-            treeNode168.Text = "帮助";
+            treeNode49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode49.Name = "Node000";
+            treeNode49.Text = "民族类别设置";
+            treeNode50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode50.Name = "Node001";
+            treeNode50.Text = "职工类别设置";
+            treeNode51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode51.Name = "Node002";
+            treeNode51.Text = "文化类别设置";
+            treeNode52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode52.Name = "Node003";
+            treeNode52.Text = "政治类别设置";
+            treeNode53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode53.Name = "Node004";
+            treeNode53.Text = "部门类别设置";
+            treeNode54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode54.Name = "Node005";
+            treeNode54.Text = "工资类别设置";
+            treeNode55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode55.Name = "Node006";
+            treeNode55.Text = "职务类别设置";
+            treeNode56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode56.Name = "Node007";
+            treeNode56.Text = "职称类别设置";
+            treeNode57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode57.Name = "Node008";
+            treeNode57.Text = "奖惩类别设置";
+            treeNode58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode58.Name = "Node009";
+            treeNode58.Text = "记事本类别设置";
+            treeNode59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode59.ForeColor = System.Drawing.Color.Black;
+            treeNode59.Name = "Node00";
+            treeNode59.Text = "基础数据";
+            treeNode60.Name = "节点010";
+            treeNode60.Text = "员工生日提示";
+            treeNode61.Name = "Node011";
+            treeNode61.Text = "员工合同提示";
+            treeNode62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode62.Name = "Node01";
+            treeNode62.Text = "员工提示信息";
+            treeNode63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            treeNode63.Name = "Node0";
+            treeNode63.Text = "基础信息管理";
+            treeNode64.Name = "Node10";
+            treeNode64.Text = "人事档案管理";
+            treeNode65.Name = "Node11";
+            treeNode65.Text = "人事资料查询";
+            treeNode66.Name = "Node12";
+            treeNode66.Text = "人事资料统计";
+            treeNode67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            treeNode67.Name = "Node1";
+            treeNode67.Text = "人事管理";
+            treeNode68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            treeNode68.Name = "Node2";
+            treeNode68.Text = "备忘记录";
+            treeNode69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            treeNode69.Name = "Node3";
+            treeNode69.Text = "数据库维护";
+            treeNode70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            treeNode70.Name = "Node4";
+            treeNode70.Text = "工具管理";
+            treeNode71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            treeNode71.Name = "Node5";
+            treeNode71.Text = "系统管理";
+            treeNode72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            treeNode72.Name = "Node6";
+            treeNode72.Text = "帮助";
             this.UNB.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode159,
-            treeNode163,
-            treeNode164,
-            treeNode165,
-            treeNode166,
-            treeNode167,
-            treeNode168});
+            treeNode63,
+            treeNode67,
+            treeNode68,
+            treeNode69,
+            treeNode70,
+            treeNode71,
+            treeNode72});
             this.UNB.NodeSize = new System.Drawing.Size(200, 55);
             this.UNB.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.UNB.SelectedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
@@ -240,6 +242,7 @@
             this.UNB.Style = Sunny.UI.UIStyle.Custom;
             this.UNB.TabIndex = 0;
             this.UNB.Text = "uiNavBar2";
+            this.UNB.MenuItemClick += new Sunny.UI.UINavBar.OnMenuItemClick(this.UNB_MenuItemClick);
             this.UNB.NodeMouseClick += new Sunny.UI.UINavBar.OnNodeMouseClick(this.UNB_NodeMouseClick);
             // 
             // UNM
@@ -253,65 +256,66 @@
             this.UNM.FullRowSelect = true;
             this.UNM.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.UNM.ItemHeight = 50;
+            this.UNM.LineColor = System.Drawing.Color.Red;
             this.UNM.Location = new System.Drawing.Point(4, 119);
             this.UNM.MenuStyle = Sunny.UI.UIMenuStyle.Custom;
             this.UNM.Name = "UNM";
-            treeNode169.Name = "Node25";
-            treeNode169.Text = "民族类别设置";
-            treeNode170.Name = "Node26";
-            treeNode170.Text = "职工类别设置";
-            treeNode171.Name = "Node27";
-            treeNode171.Text = "文化程度设置";
-            treeNode172.Name = "Node28";
-            treeNode172.Text = "政治面貌设置";
-            treeNode173.Name = "Node29";
-            treeNode173.Text = "部门类别设置";
-            treeNode174.Name = "Node30";
-            treeNode174.Text = "工资类别设置";
-            treeNode175.Name = "Node31";
-            treeNode175.Text = "职务类别设置";
-            treeNode176.Name = "Node32";
-            treeNode176.Text = "职称类别设置";
-            treeNode177.Name = "Node33";
-            treeNode177.Text = "奖惩类别设置";
-            treeNode178.Name = "Node34";
-            treeNode178.Text = "记事本类别设置";
-            treeNode179.Name = "Node23";
-            treeNode179.Text = "基础数据";
-            treeNode180.Name = "Node35";
-            treeNode180.Text = "员工生日提示";
-            treeNode181.Name = "Node36";
-            treeNode181.Text = "员工合同提示";
-            treeNode182.Name = "Node24";
-            treeNode182.Text = "员工提示信息";
-            treeNode183.Name = "Node0";
-            treeNode183.Text = "基础信息管理";
-            treeNode184.Name = "Node37";
-            treeNode184.Text = "人事档案管理";
-            treeNode185.Name = "Node38";
-            treeNode185.Text = "人事资料查询";
-            treeNode186.Name = "Node39";
-            treeNode186.Text = "人事资料统计";
-            treeNode187.Name = "Node1";
-            treeNode187.Text = "人事管理";
-            treeNode188.Name = "Node2";
-            treeNode188.Text = "备忘记录";
-            treeNode189.Name = "Node3";
-            treeNode189.Text = "数据库维护";
-            treeNode190.Name = "Node4";
-            treeNode190.Text = "工具管理";
-            treeNode191.Name = "Node5";
-            treeNode191.Text = "系统管理";
-            treeNode192.Name = "Node6";
-            treeNode192.Text = "帮助";
+            treeNode73.Name = "Node25";
+            treeNode73.Text = "民族类别设置";
+            treeNode74.Name = "Node26";
+            treeNode74.Text = "职工类别设置";
+            treeNode75.Name = "Node27";
+            treeNode75.Text = "文化程度设置";
+            treeNode76.Name = "Node28";
+            treeNode76.Text = "政治面貌设置";
+            treeNode77.Name = "Node29";
+            treeNode77.Text = "部门类别设置";
+            treeNode78.Name = "Node30";
+            treeNode78.Text = "工资类别设置";
+            treeNode79.Name = "Node31";
+            treeNode79.Text = "职务类别设置";
+            treeNode80.Name = "Node32";
+            treeNode80.Text = "职称类别设置";
+            treeNode81.Name = "Node33";
+            treeNode81.Text = "奖惩类别设置";
+            treeNode82.Name = "Node34";
+            treeNode82.Text = "记事本类别设置";
+            treeNode83.Name = "Node23";
+            treeNode83.Text = "基础数据";
+            treeNode84.Name = "Node35";
+            treeNode84.Text = "员工生日提示";
+            treeNode85.Name = "Node36";
+            treeNode85.Text = "员工合同提示";
+            treeNode86.Name = "Node24";
+            treeNode86.Text = "员工提示信息";
+            treeNode87.Name = "Node0";
+            treeNode87.Text = "基础信息管理";
+            treeNode88.Name = "Node37";
+            treeNode88.Text = "人事档案管理";
+            treeNode89.Name = "Node38";
+            treeNode89.Text = "人事资料查询";
+            treeNode90.Name = "Node39";
+            treeNode90.Text = "人事资料统计";
+            treeNode91.Name = "Node1";
+            treeNode91.Text = "人事管理";
+            treeNode92.Name = "Node2";
+            treeNode92.Text = "备忘记录";
+            treeNode93.Name = "Node3";
+            treeNode93.Text = "数据库维护";
+            treeNode94.Name = "Node4";
+            treeNode94.Text = "工具管理";
+            treeNode95.Name = "Node5";
+            treeNode95.Text = "系统管理";
+            treeNode96.Name = "Node6";
+            treeNode96.Text = "帮助";
             this.UNM.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode183,
-            treeNode187,
-            treeNode188,
-            treeNode189,
-            treeNode190,
-            treeNode191,
-            treeNode192});
+            treeNode87,
+            treeNode91,
+            treeNode92,
+            treeNode93,
+            treeNode94,
+            treeNode95,
+            treeNode96});
             this.UNM.ScrollBarColor = System.Drawing.Color.White;
             this.UNM.ScrollBarHoverColor = System.Drawing.Color.White;
             this.UNM.ScrollBarPressColor = System.Drawing.Color.White;
@@ -325,6 +329,8 @@
             this.UNM.Style = Sunny.UI.UIStyle.Custom;
             this.UNM.TabIndex = 1;
             this.UNM.TipsFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.UNM.MenuItemClick += new Sunny.UI.UINavMenu.OnMenuItemClick(this.UNM_MenuItemClick);
+            this.UNM.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.UNM_NodeMouseClick);
             // 
             // toolStrip1
             // 
@@ -351,6 +357,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(123, 24);
             this.toolStripButton1.Text = "人事档案管理";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripButton2
             // 
@@ -359,6 +366,7 @@
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(123, 24);
             this.toolStripButton2.Text = "人事资料查询";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripButton3
             // 
@@ -434,6 +442,12 @@
             this.toolStripStatusLabel3.Size = new System.Drawing.Size(167, 20);
             this.toolStripStatusLabel3.Text = "toolStripStatusLabel3";
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 50;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
@@ -445,6 +459,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.UNM);
             this.Controls.Add(this.UNB);
+            this.IsMdiContainer = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Main";
@@ -482,5 +497,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
+        private System.Windows.Forms.Timer timer1;
     }
 }

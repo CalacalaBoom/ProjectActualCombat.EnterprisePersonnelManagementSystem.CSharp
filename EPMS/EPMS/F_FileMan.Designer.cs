@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.uiLine1 = new Sunny.UI.UILine();
             this.uiLine2 = new Sunny.UI.UILine();
             this.label1 = new System.Windows.Forms.Label();
@@ -167,7 +167,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(38, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 21);
+            this.label1.Size = new System.Drawing.Size(112, 27);
             this.label1.TabIndex = 2;
             this.label1.Text = "查询类型：";
             // 
@@ -176,7 +176,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(453, 81);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 21);
+            this.label2.Size = new System.Drawing.Size(112, 27);
             this.label2.TabIndex = 3;
             this.label2.Text = "查询条件：";
             // 
@@ -298,7 +298,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(111, 657);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 29);
+            this.textBox1.Size = new System.Drawing.Size(156, 34);
             this.textBox1.TabIndex = 3;
             // 
             // label3
@@ -306,7 +306,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(15, 660);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 21);
+            this.label3.Size = new System.Drawing.Size(112, 27);
             this.label3.TabIndex = 2;
             this.label3.Text = "当前记录：";
             // 
@@ -314,50 +314,53 @@
             // 
             this.uiDataGridView1.AllowUserToAddRows = false;
             this.uiDataGridView1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.uiDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.uiDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
             this.uiDataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.uiDataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle47.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.uiDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.uiDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.uiDataGridView1.ColumnHeadersHeight = 32;
             this.uiDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.uiDataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.uiDataGridView1.DefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.uiDataGridView1.DefaultCellStyle = dataGridViewCellStyle8;
             this.uiDataGridView1.EnableHeadersVisualStyles = false;
             this.uiDataGridView1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiDataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
+            this.uiDataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.uiDataGridView1.Location = new System.Drawing.Point(19, 76);
             this.uiDataGridView1.Name = "uiDataGridView1";
             this.uiDataGridView1.ReadOnly = true;
-            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle49.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            dataGridViewCellStyle49.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle49.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle49.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.uiDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle49;
-            dataGridViewCellStyle50.BackColor = System.Drawing.Color.White;
-            this.uiDataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle50;
+            this.uiDataGridView1.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.uiDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+            this.uiDataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.uiDataGridView1.RowTemplate.Height = 23;
             this.uiDataGridView1.SelectedIndex = -1;
             this.uiDataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.uiDataGridView1.ShowGridLine = true;
             this.uiDataGridView1.Size = new System.Drawing.Size(248, 557);
+            this.uiDataGridView1.StripeOddColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.uiDataGridView1.Style = Sunny.UI.UIStyle.Red;
             this.uiDataGridView1.TabIndex = 1;
             this.uiDataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.uiDataGridView1_CellClick);
             this.uiDataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.uiDataGridView1_CellContentClick);
@@ -384,14 +387,17 @@
             this.uiGroupBox2.Controls.Add(this.btn_toExcel);
             this.uiGroupBox2.Controls.Add(this.btn_toWord);
             this.uiGroupBox2.Controls.Add(this.uiTabControl1);
-            this.uiGroupBox2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.uiGroupBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.uiGroupBox2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.uiGroupBox2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.uiGroupBox2.Location = new System.Drawing.Point(315, 116);
             this.uiGroupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiGroupBox2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiGroupBox2.Name = "uiGroupBox2";
             this.uiGroupBox2.Padding = new System.Windows.Forms.Padding(0, 32, 0, 0);
+            this.uiGroupBox2.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.uiGroupBox2.Size = new System.Drawing.Size(1202, 695);
+            this.uiGroupBox2.Style = Sunny.UI.UIStyle.Red;
             this.uiGroupBox2.TabIndex = 11;
             this.uiGroupBox2.Text = null;
             this.uiGroupBox2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -459,6 +465,7 @@
             this.btn_toExcel.TabIndex = 2;
             this.btn_toExcel.Text = "导出Excel";
             this.btn_toExcel.TipsFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_toExcel.Click += new System.EventHandler(this.btn_toExcel_Click);
             // 
             // btn_toWord
             // 
@@ -482,6 +489,7 @@
             this.uiTabControl1.Controls.Add(this.tabPage5);
             this.uiTabControl1.Controls.Add(this.tabPage6);
             this.uiTabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
+            this.uiTabControl1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.uiTabControl1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.uiTabControl1.ItemSize = new System.Drawing.Size(150, 40);
             this.uiTabControl1.Location = new System.Drawing.Point(16, 35);
@@ -491,9 +499,12 @@
             this.uiTabControl1.SelectedIndex = 0;
             this.uiTabControl1.Size = new System.Drawing.Size(1165, 572);
             this.uiTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.uiTabControl1.TabBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.uiTabControl1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiTabControl1.TabBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.uiTabControl1.TabIndex = 0;
-            this.uiTabControl1.TabSelectedColor = System.Drawing.Color.LightSkyBlue;
+            this.uiTabControl1.TabSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.uiTabControl1.TabSelectedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.uiTabControl1.TabSelectedHighColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.uiTabControl1.TipsFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             // 
             // tabPage1
@@ -575,7 +586,7 @@
             // 
             this.txtSchool.Location = new System.Drawing.Point(106, 451);
             this.txtSchool.Name = "txtSchool";
-            this.txtSchool.Size = new System.Drawing.Size(142, 29);
+            this.txtSchool.Size = new System.Drawing.Size(142, 34);
             this.txtSchool.TabIndex = 57;
             // 
             // label35
@@ -583,7 +594,7 @@
             this.label35.AutoSize = true;
             this.label35.Location = new System.Drawing.Point(10, 455);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(90, 21);
+            this.label35.Size = new System.Drawing.Size(112, 27);
             this.label35.TabIndex = 56;
             this.label35.Text = "毕业学校：";
             // 
@@ -609,7 +620,7 @@
             // 
             this.txtAddress.Location = new System.Drawing.Point(779, 451);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(366, 29);
+            this.txtAddress.Size = new System.Drawing.Size(366, 34);
             this.txtAddress.TabIndex = 54;
             // 
             // label34
@@ -617,7 +628,7 @@
             this.label34.AutoSize = true;
             this.label34.Location = new System.Drawing.Point(683, 455);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(90, 21);
+            this.label34.Size = new System.Drawing.Size(112, 27);
             this.label34.TabIndex = 53;
             this.label34.Text = "家庭住址：";
             // 
@@ -625,7 +636,7 @@
             // 
             this.txtSpeciality.Location = new System.Drawing.Point(596, 451);
             this.txtSpeciality.Name = "txtSpeciality";
-            this.txtSpeciality.Size = new System.Drawing.Size(81, 29);
+            this.txtSpeciality.Size = new System.Drawing.Size(81, 34);
             this.txtSpeciality.TabIndex = 52;
             // 
             // label33
@@ -633,7 +644,7 @@
             this.label33.AutoSize = true;
             this.label33.Location = new System.Drawing.Point(500, 455);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(90, 21);
+            this.label33.Size = new System.Drawing.Size(112, 27);
             this.label33.TabIndex = 51;
             this.label33.Text = "主修专业：";
             // 
@@ -661,7 +672,7 @@
             this.label32.AutoSize = true;
             this.label32.Location = new System.Drawing.Point(254, 455);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(90, 21);
+            this.label32.Size = new System.Drawing.Size(112, 27);
             this.label32.TabIndex = 50;
             this.label32.Text = "毕业时间：";
             // 
@@ -670,7 +681,7 @@
             this.txtY.Location = new System.Drawing.Point(940, 379);
             this.txtY.Name = "txtY";
             this.txtY.ReadOnly = true;
-            this.txtY.Size = new System.Drawing.Size(202, 29);
+            this.txtY.Size = new System.Drawing.Size(202, 34);
             this.txtY.TabIndex = 48;
             // 
             // label31
@@ -678,7 +689,7 @@
             this.label31.AutoSize = true;
             this.label31.Location = new System.Drawing.Point(838, 383);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(90, 21);
+            this.label31.Size = new System.Drawing.Size(112, 27);
             this.label31.TabIndex = 47;
             this.label31.Text = "合同年限：";
             // 
@@ -707,7 +718,7 @@
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(644, 383);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(26, 21);
+            this.label30.Size = new System.Drawing.Size(32, 27);
             this.label30.TabIndex = 46;
             this.label30.Text = "至";
             // 
@@ -736,7 +747,7 @@
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(418, 383);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(58, 21);
+            this.label29.Size = new System.Drawing.Size(72, 27);
             this.label29.TabIndex = 45;
             this.label29.Text = "合同：";
             // 
@@ -744,7 +755,7 @@
             // 
             this.txtHandset.Location = new System.Drawing.Point(80, 379);
             this.txtHandset.Name = "txtHandset";
-            this.txtHandset.Size = new System.Drawing.Size(326, 29);
+            this.txtHandset.Size = new System.Drawing.Size(326, 34);
             this.txtHandset.TabIndex = 44;
             // 
             // label28
@@ -752,7 +763,7 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(10, 383);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(58, 21);
+            this.label28.Size = new System.Drawing.Size(72, 27);
             this.label28.TabIndex = 43;
             this.label28.Text = "手机：";
             // 
@@ -760,7 +771,7 @@
             // 
             this.txtPhone.Location = new System.Drawing.Point(804, 235);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(161, 29);
+            this.txtPhone.Size = new System.Drawing.Size(161, 34);
             this.txtPhone.TabIndex = 42;
             // 
             // label27
@@ -768,7 +779,7 @@
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(742, 239);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(58, 21);
+            this.label27.Size = new System.Drawing.Size(72, 27);
             this.label27.TabIndex = 41;
             this.label27.Text = "电话：";
             // 
@@ -798,7 +809,7 @@
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(530, 311);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(90, 21);
+            this.label26.Size = new System.Drawing.Size(112, 27);
             this.label26.TabIndex = 40;
             this.label26.Text = "职工类别：";
             // 
@@ -827,7 +838,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(270, 311);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(90, 21);
+            this.label25.Size = new System.Drawing.Size(112, 27);
             this.label25.TabIndex = 39;
             this.label25.Text = "职称类别：";
             // 
@@ -860,7 +871,7 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(10, 311);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(90, 21);
+            this.label24.Size = new System.Drawing.Size(112, 27);
             this.label24.TabIndex = 37;
             this.label24.Text = "部门类别：";
             // 
@@ -868,7 +879,7 @@
             // 
             this.txtBank.Location = new System.Drawing.Point(887, 307);
             this.txtBank.Name = "txtBank";
-            this.txtBank.Size = new System.Drawing.Size(251, 29);
+            this.txtBank.Size = new System.Drawing.Size(251, 34);
             this.txtBank.TabIndex = 36;
             // 
             // label23
@@ -876,7 +887,7 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(793, 311);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(90, 21);
+            this.label23.Size = new System.Drawing.Size(112, 27);
             this.label23.TabIndex = 35;
             this.label23.Text = "银行账号：";
             // 
@@ -885,7 +896,7 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(698, 239);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(26, 21);
+            this.label22.Size = new System.Drawing.Size(32, 27);
             this.label22.TabIndex = 34;
             this.label22.Text = "元";
             // 
@@ -893,7 +904,7 @@
             // 
             this.txtPay.Location = new System.Drawing.Point(608, 235);
             this.txtPay.Name = "txtPay";
-            this.txtPay.Size = new System.Drawing.Size(86, 29);
+            this.txtPay.Size = new System.Drawing.Size(86, 34);
             this.txtPay.TabIndex = 33;
             // 
             // label21
@@ -901,7 +912,7 @@
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(530, 239);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(74, 21);
+            this.label21.Size = new System.Drawing.Size(92, 27);
             this.label21.TabIndex = 32;
             this.label21.Text = "月工资：";
             // 
@@ -932,7 +943,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(270, 239);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(90, 21);
+            this.label20.Size = new System.Drawing.Size(112, 27);
             this.label20.TabIndex = 31;
             this.label20.Text = "职务类别：";
             // 
@@ -961,7 +972,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(10, 239);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(90, 21);
+            this.label19.Size = new System.Drawing.Size(112, 27);
             this.label19.TabIndex = 29;
             this.label19.Text = "工资类别：";
             // 
@@ -1006,7 +1017,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(939, 167);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(26, 21);
+            this.label18.Size = new System.Drawing.Size(32, 27);
             this.label18.TabIndex = 25;
             this.label18.Text = "市";
             // 
@@ -1014,7 +1025,7 @@
             // 
             this.txtCity.Location = new System.Drawing.Point(727, 163);
             this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(205, 29);
+            this.txtCity.Size = new System.Drawing.Size(205, 34);
             this.txtCity.TabIndex = 24;
             // 
             // label17
@@ -1022,7 +1033,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(694, 167);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(26, 21);
+            this.label17.Size = new System.Drawing.Size(32, 27);
             this.label17.TabIndex = 23;
             this.label17.Text = "省";
             // 
@@ -1030,7 +1041,7 @@
             // 
             this.txtBeAware.Location = new System.Drawing.Point(491, 163);
             this.txtBeAware.Name = "txtBeAware";
-            this.txtBeAware.Size = new System.Drawing.Size(196, 29);
+            this.txtBeAware.Size = new System.Drawing.Size(196, 34);
             this.txtBeAware.TabIndex = 22;
             // 
             // label16
@@ -1038,7 +1049,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(426, 167);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(58, 21);
+            this.label16.Size = new System.Drawing.Size(72, 27);
             this.label16.TabIndex = 21;
             this.label16.Text = "籍贯：";
             // 
@@ -1047,7 +1058,7 @@
             this.txtWorkLength.Location = new System.Drawing.Point(323, 163);
             this.txtWorkLength.Name = "txtWorkLength";
             this.txtWorkLength.ReadOnly = true;
-            this.txtWorkLength.Size = new System.Drawing.Size(96, 29);
+            this.txtWorkLength.Size = new System.Drawing.Size(96, 34);
             this.txtWorkLength.TabIndex = 20;
             // 
             // label15
@@ -1055,7 +1066,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(258, 167);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(58, 21);
+            this.label15.Size = new System.Drawing.Size(72, 27);
             this.label15.TabIndex = 19;
             this.label15.Text = "工龄：";
             // 
@@ -1084,7 +1095,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(10, 167);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(90, 21);
+            this.label14.Size = new System.Drawing.Size(112, 27);
             this.label14.TabIndex = 17;
             this.label14.Text = "工作时间：";
             // 
@@ -1092,7 +1103,7 @@
             // 
             this.txtIDCard.Location = new System.Drawing.Point(699, 91);
             this.txtIDCard.Name = "txtIDCard";
-            this.txtIDCard.Size = new System.Drawing.Size(259, 29);
+            this.txtIDCard.Size = new System.Drawing.Size(259, 34);
             this.txtIDCard.TabIndex = 16;
             // 
             // label13
@@ -1100,7 +1111,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(608, 95);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(90, 21);
+            this.label13.Size = new System.Drawing.Size(112, 27);
             this.label13.TabIndex = 15;
             this.label13.Text = "身份证号：";
             // 
@@ -1129,7 +1140,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(424, 95);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 21);
+            this.label12.Size = new System.Drawing.Size(112, 27);
             this.label12.TabIndex = 14;
             this.label12.Text = "政治面貌：";
             // 
@@ -1161,7 +1172,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(269, 95);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(90, 21);
+            this.label11.Size = new System.Drawing.Size(112, 27);
             this.label11.TabIndex = 13;
             this.label11.Text = "文化程度：";
             // 
@@ -1188,7 +1199,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(133, 95);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(58, 21);
+            this.label10.Size = new System.Drawing.Size(72, 27);
             this.label10.TabIndex = 12;
             this.label10.Text = "婚姻：";
             // 
@@ -1215,7 +1226,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(10, 95);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 21);
+            this.label9.Size = new System.Drawing.Size(72, 27);
             this.label9.TabIndex = 10;
             this.label9.Text = "性别：";
             // 
@@ -1224,7 +1235,7 @@
             this.txtAge.Location = new System.Drawing.Point(868, 19);
             this.txtAge.Name = "txtAge";
             this.txtAge.ReadOnly = true;
-            this.txtAge.Size = new System.Drawing.Size(96, 29);
+            this.txtAge.Size = new System.Drawing.Size(96, 34);
             this.txtAge.TabIndex = 9;
             // 
             // label8
@@ -1232,7 +1243,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(805, 23);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(58, 21);
+            this.label8.Size = new System.Drawing.Size(72, 27);
             this.label8.TabIndex = 8;
             this.label8.Text = "年龄：";
             // 
@@ -1261,7 +1272,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(561, 23);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 21);
+            this.label7.Size = new System.Drawing.Size(112, 27);
             this.label7.TabIndex = 6;
             this.label7.Text = "出生日期：";
             // 
@@ -1342,7 +1353,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(390, 23);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 21);
+            this.label6.Size = new System.Drawing.Size(72, 27);
             this.label6.TabIndex = 4;
             this.label6.Text = "民族：";
             // 
@@ -1350,7 +1361,7 @@
             // 
             this.txtName.Location = new System.Drawing.Point(297, 19);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(90, 29);
+            this.txtName.Size = new System.Drawing.Size(90, 34);
             this.txtName.TabIndex = 3;
             // 
             // label5
@@ -1358,7 +1369,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(204, 23);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 21);
+            this.label5.Size = new System.Drawing.Size(112, 27);
             this.label5.TabIndex = 2;
             this.label5.Text = "职工姓名：";
             // 
@@ -1367,7 +1378,7 @@
             this.txtID.Location = new System.Drawing.Point(111, 19);
             this.txtID.Name = "txtID";
             this.txtID.ReadOnly = true;
-            this.txtID.Size = new System.Drawing.Size(90, 29);
+            this.txtID.Size = new System.Drawing.Size(90, 34);
             this.txtID.TabIndex = 1;
             // 
             // label4
@@ -1375,7 +1386,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(10, 23);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 21);
+            this.label4.Size = new System.Drawing.Size(112, 27);
             this.label4.TabIndex = 0;
             this.label4.Text = "职工编号：";
             // 
@@ -1426,9 +1437,10 @@
             // 
             // F_FileMan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1536, 816);
+            this.ControlBoxFillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
             this.Controls.Add(this.uiGroupBox2);
             this.Controls.Add(this.uiGroupBox1);
             this.Controls.Add(this.N_Cauda);
@@ -1442,8 +1454,11 @@
             this.Controls.Add(this.uiLine2);
             this.Controls.Add(this.uiLine1);
             this.Name = "F_FileMan";
+            this.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.Style = Sunny.UI.UIStyle.Red;
             this.Text = "人事档案管理";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.F_FileMan_FormClosed);
             this.Load += new System.EventHandler(this.F_FileMan_Load);
             this.uiGroupBox1.ResumeLayout(false);
             this.uiGroupBox1.PerformLayout();

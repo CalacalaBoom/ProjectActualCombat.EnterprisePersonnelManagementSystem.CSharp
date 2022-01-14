@@ -17,7 +17,7 @@ namespace EPMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new F_FileMan());
+            Application.Run(new Main());
             if (MyModule.FormHelper == true)
             {
                 Application.Run(new Main());
