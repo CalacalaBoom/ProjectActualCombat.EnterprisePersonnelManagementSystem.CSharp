@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_pwmsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tb_addressbook">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Sex" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Phone" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+    <Property Name="QQ" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="WorkPhone" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+    <Property Name="E_mail" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="Handset" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_branch">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BranchName" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_business">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BusinessName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_city">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BeAware" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_culture">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Culture" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_daywordpad">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="BlotterDate" Type="DateTime" />
+    <Property Name="BlotterSort" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Motif" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Wordpa" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_duthcall">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DuthcallName" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_employee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmployeeName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_employeename">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="EmployeeName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_family">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Stu_ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="LeagueName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Nexus" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="BirthDate" Type="DateTime" />
+    <Property Name="WorkUnit" Type="String" MaxLength="24" FixedLength="false" Unicode="false" />
+    <Property Name="Business" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Visage" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_folk">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FolkName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_individual">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Memo" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_laborage">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Laborage" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_login">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Pass" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_popemodel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="PopeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_randp">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Stu_ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="RPKind" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SealMan" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="QuashDate" Type="DateTime" />
+    <Property Name="QuashWhys" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_rpkind">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RPKind" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_staffbasic">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StaffName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Folk" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Birthday" Type="DateTime" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="Culture" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="Marriage" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Sex" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Visage" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="IDCard" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Workdate" Type="DateTime" />
+    <Property Name="WorkLength" Type="Int32" />
+    <Property Name="Employee" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Business" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Laborage" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Branch" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="Duthcall" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="Phone" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="Handset" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="School" Type="String" MaxLength="24" FixedLength="false" Unicode="false" />
+    <Property Name="Speciality" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="GraduateDate" Type="DateTime" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="BeAware" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="M_Pay" Type="Single" />
+    <Property Name="Bank" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Pact_B" Type="DateTime" />
+    <Property Name="Pact_E" Type="DateTime" />
+    <Property Name="Pact_Y" Type="Single" />
+  </EntityType>
+  <EntityType Name="tb_trainnote">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Stu_ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="TrainFashion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="BeginDate" Type="DateTime" />
+    <Property Name="EndDate" Type="DateTime" />
+    <Property Name="Speciality" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_userpope">
+    <Key>
+      <PropertyRef Name="AutoID" />
+    </Key>
+    <Property Name="AutoID" Type="Int32" Nullable="false" />
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="PopeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Pope" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_visage">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VisageName" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_wordpad">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="WORDPAD" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_workresume">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Stu_ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="BeginDate" Type="DateTime" />
+    <Property Name="EndDate" Type="DateTime" />
+    <Property Name="WorkUnit" Type="String" MaxLength="24" FixedLength="false" Unicode="false" />
+    <Property Name="Branch" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="Business" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="db_pwmsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tb_addressbook" EntityType="Self.tb_addressbook" />
+    <EntitySet Name="tb_branch" EntityType="Self.tb_branch" />
+    <EntitySet Name="tb_business" EntityType="Self.tb_business" />
+    <EntitySet Name="tb_city" EntityType="Self.tb_city" />
+    <EntitySet Name="tb_culture" EntityType="Self.tb_culture" />
+    <EntitySet Name="tb_daywordpad" EntityType="Self.tb_daywordpad" />
+    <EntitySet Name="tb_duthcall" EntityType="Self.tb_duthcall" />
+    <EntitySet Name="tb_employee" EntityType="Self.tb_employee" />
+    <EntitySet Name="tb_employeename" EntityType="Self.tb_employeename" />
+    <EntitySet Name="tb_family" EntityType="Self.tb_family" />
+    <EntitySet Name="tb_folk" EntityType="Self.tb_folk" />
+    <EntitySet Name="tb_individual" EntityType="Self.tb_individual" />
+    <EntitySet Name="tb_laborage" EntityType="Self.tb_laborage" />
+    <EntitySet Name="tb_login" EntityType="Self.tb_login" />
+    <EntitySet Name="tb_popemodel" EntityType="Self.tb_popemodel" />
+    <EntitySet Name="tb_randp" EntityType="Self.tb_randp" />
+    <EntitySet Name="tb_rpkind" EntityType="Self.tb_rpkind" />
+    <EntitySet Name="tb_staffbasic" EntityType="Self.tb_staffbasic" />
+    <EntitySet Name="tb_trainnote" EntityType="Self.tb_trainnote" />
+    <EntitySet Name="tb_userpope" EntityType="Self.tb_userpope" />
+    <EntitySet Name="tb_visage" EntityType="Self.tb_visage" />
+    <EntitySet Name="tb_wordpad" EntityType="Self.tb_wordpad" />
+    <EntitySet Name="tb_workresume" EntityType="Self.tb_workresume" />
+  </EntityContainer>
+</Schema>

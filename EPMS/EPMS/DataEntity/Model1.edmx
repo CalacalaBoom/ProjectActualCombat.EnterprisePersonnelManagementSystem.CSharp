@@ -1,0 +1,784 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="db_pwmsModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tb_addressbook">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="20" />
+          <Property Name="Sex" Type="varchar" MaxLength="4" />
+          <Property Name="Phone" Type="varchar" MaxLength="13" />
+          <Property Name="QQ" Type="varchar" MaxLength="15" />
+          <Property Name="WorkPhone" Type="varchar" MaxLength="13" />
+          <Property Name="E-mail" Type="varchar" MaxLength="32" />
+          <Property Name="Handset" Type="varchar" MaxLength="11" />
+        </EntityType>
+        <EntityType Name="tb_branch">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="BranchName" Type="varchar" MaxLength="14" />
+        </EntityType>
+        <EntityType Name="tb_business">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="BusinessName" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="tb_city">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="BeAware" Type="varchar" MaxLength="30" />
+          <Property Name="City" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="tb_culture">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Culture" Type="varchar" MaxLength="14" />
+        </EntityType>
+        <EntityType Name="tb_daywordpad">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="BlotterDate" Type="datetime" Precision="0" />
+          <Property Name="BlotterSort" Type="varchar" MaxLength="20" />
+          <Property Name="Motif" Type="varchar" MaxLength="20" />
+          <Property Name="Wordpa" Type="text" />
+        </EntityType>
+        <EntityType Name="tb_duthcall">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="DuthcallName" Type="varchar" MaxLength="14" />
+        </EntityType>
+        <EntityType Name="tb_employee">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="EmployeeName" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tb_employeename">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="EmployeeName" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tb_family">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Stu_ID" Type="varchar" MaxLength="5" />
+          <Property Name="LeagueName" Type="varchar" MaxLength="20" />
+          <Property Name="Nexus" Type="varchar" MaxLength="10" />
+          <Property Name="BirthDate" Type="datetime" Precision="0" />
+          <Property Name="WorkUnit" Type="varchar" MaxLength="24" />
+          <Property Name="Business" Type="varchar" MaxLength="10" />
+          <Property Name="Visage" Type="varchar" MaxLength="10" />
+          <Property Name="phone" Type="varchar" MaxLength="14" />
+        </EntityType>
+        <EntityType Name="tb_folk">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="FolkName" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tb_individual">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Memo" Type="text" />
+        </EntityType>
+        <EntityType Name="tb_laborage">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Laborage" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="tb_login">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="20" />
+          <Property Name="Pass" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tb_popemodel">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="PopeName" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tb_randp">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Stu_ID" Type="varchar" MaxLength="5" />
+          <Property Name="RPKind" Type="varchar" MaxLength="20" />
+          <Property Name="SealMan" Type="varchar" MaxLength="10" />
+          <Property Name="QuashDate" Type="datetime" Precision="0" />
+          <Property Name="QuashWhys" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tb_rpkind">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="RPKind" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tb_staffbasic">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="StaffName" Type="varchar" MaxLength="20" />
+          <Property Name="Folk" Type="varchar" MaxLength="20" />
+          <Property Name="Birthday" Type="datetime" Precision="0" />
+          <Property Name="Age" Type="int" />
+          <Property Name="Culture" Type="varchar" MaxLength="14" />
+          <Property Name="Marriage" Type="varchar" MaxLength="4" />
+          <Property Name="Sex" Type="varchar" MaxLength="4" />
+          <Property Name="Visage" Type="varchar" MaxLength="14" />
+          <Property Name="IDCard" Type="varchar" MaxLength="20" />
+          <Property Name="Workdate" Type="datetime" Precision="0" />
+          <Property Name="WorkLength" Type="int" />
+          <Property Name="Employee" Type="varchar" MaxLength="20" />
+          <Property Name="Business" Type="varchar" MaxLength="10" />
+          <Property Name="Laborage" Type="varchar" MaxLength="10" />
+          <Property Name="Branch" Type="varchar" MaxLength="14" />
+          <Property Name="Duthcall" Type="varchar" MaxLength="14" />
+          <Property Name="Phone" Type="varchar" MaxLength="14" />
+          <Property Name="Handset" Type="varchar" MaxLength="11" />
+          <Property Name="School" Type="varchar" MaxLength="24" />
+          <Property Name="Speciality" Type="varchar" MaxLength="20" />
+          <Property Name="GraduateDate" Type="datetime" Precision="0" />
+          <Property Name="Address" Type="varchar" MaxLength="50" />
+          <Property Name="Photo" Type="mediumblob" />
+          <Property Name="BeAware" Type="varchar" MaxLength="30" />
+          <Property Name="City" Type="varchar" MaxLength="30" />
+          <Property Name="M_Pay" Type="float" />
+          <Property Name="Bank" Type="varchar" MaxLength="20" />
+          <Property Name="Pact_B" Type="datetime" Precision="0" />
+          <Property Name="Pact_E" Type="datetime" Precision="0" />
+          <Property Name="Pact_Y" Type="float" />
+        </EntityType>
+        <EntityType Name="tb_trainnote">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Stu_ID" Type="varchar" MaxLength="5" />
+          <Property Name="TrainFashion" Type="varchar" MaxLength="20" />
+          <Property Name="BeginDate" Type="datetime" Precision="0" />
+          <Property Name="EndDate" Type="datetime" Precision="0" />
+          <Property Name="Speciality" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tb_userpope">
+          <Key>
+            <PropertyRef Name="AutoID" />
+          </Key>
+          <Property Name="AutoID" Type="int" Nullable="false" />
+          <Property Name="ID" Type="varchar" MaxLength="5" />
+          <Property Name="PopeName" Type="varchar" MaxLength="50" />
+          <Property Name="Pope" Type="int" />
+        </EntityType>
+        <EntityType Name="tb_visage">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="VisageName" Type="varchar" MaxLength="14" />
+        </EntityType>
+        <EntityType Name="tb_wordpad">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="WORDPAD" Type="text" />
+        </EntityType>
+        <EntityType Name="tb_workresume">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Stu_ID" Type="varchar" MaxLength="5" />
+          <Property Name="BeginDate" Type="datetime" Precision="0" />
+          <Property Name="EndDate" Type="datetime" Precision="0" />
+          <Property Name="WorkUnit" Type="varchar" MaxLength="24" />
+          <Property Name="Branch" Type="varchar" MaxLength="14" />
+          <Property Name="Business" Type="varchar" MaxLength="14" />
+        </EntityType>
+        <EntityContainer Name="db_pwmsModelStoreContainer">
+          <EntitySet Name="tb_addressbook" EntityType="Self.tb_addressbook" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_branch" EntityType="Self.tb_branch" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_business" EntityType="Self.tb_business" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_city" EntityType="Self.tb_city" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_culture" EntityType="Self.tb_culture" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_daywordpad" EntityType="Self.tb_daywordpad" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_duthcall" EntityType="Self.tb_duthcall" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_employee" EntityType="Self.tb_employee" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_employeename" EntityType="Self.tb_employeename" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_family" EntityType="Self.tb_family" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_folk" EntityType="Self.tb_folk" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_individual" EntityType="Self.tb_individual" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_laborage" EntityType="Self.tb_laborage" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_login" EntityType="Self.tb_login" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_popemodel" EntityType="Self.tb_popemodel" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_randp" EntityType="Self.tb_randp" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_rpkind" EntityType="Self.tb_rpkind" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_staffbasic" EntityType="Self.tb_staffbasic" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_trainnote" EntityType="Self.tb_trainnote" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_userpope" EntityType="Self.tb_userpope" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_visage" EntityType="Self.tb_visage" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_wordpad" EntityType="Self.tb_wordpad" Schema="db_pwms" store:Type="Tables" />
+          <EntitySet Name="tb_workresume" EntityType="Self.tb_workresume" Schema="db_pwms" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="db_pwmsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="tb_addressbook">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Sex" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Phone" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="QQ" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="WorkPhone" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="E_mail" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="Handset" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_branch">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="BranchName" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_business">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="BusinessName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_city">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="BeAware" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="City" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_culture">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Culture" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_daywordpad">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="BlotterDate" Type="DateTime" />
+          <Property Name="BlotterSort" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Motif" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Wordpa" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_duthcall">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DuthcallName" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_employee">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="EmployeeName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_employeename">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="EmployeeName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_family">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Stu_ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="LeagueName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Nexus" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="BirthDate" Type="DateTime" />
+          <Property Name="WorkUnit" Type="String" MaxLength="24" FixedLength="false" Unicode="false" />
+          <Property Name="Business" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Visage" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="phone" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_folk">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FolkName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_individual">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Memo" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_laborage">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Laborage" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_login">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Pass" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_popemodel">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="PopeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_randp">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Stu_ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="RPKind" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SealMan" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="QuashDate" Type="DateTime" />
+          <Property Name="QuashWhys" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_rpkind">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="RPKind" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_staffbasic">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="StaffName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Folk" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Birthday" Type="DateTime" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="Culture" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+          <Property Name="Marriage" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Sex" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Visage" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+          <Property Name="IDCard" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Workdate" Type="DateTime" />
+          <Property Name="WorkLength" Type="Int32" />
+          <Property Name="Employee" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Business" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Laborage" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Branch" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+          <Property Name="Duthcall" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+          <Property Name="Phone" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+          <Property Name="Handset" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="School" Type="String" MaxLength="24" FixedLength="false" Unicode="false" />
+          <Property Name="Speciality" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GraduateDate" Type="DateTime" />
+          <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="BeAware" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="City" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="M_Pay" Type="Single" />
+          <Property Name="Bank" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Pact_B" Type="DateTime" />
+          <Property Name="Pact_E" Type="DateTime" />
+          <Property Name="Pact_Y" Type="Single" />
+        </EntityType>
+        <EntityType Name="tb_trainnote">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Stu_ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="TrainFashion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="BeginDate" Type="DateTime" />
+          <Property Name="EndDate" Type="DateTime" />
+          <Property Name="Speciality" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_userpope">
+          <Key>
+            <PropertyRef Name="AutoID" />
+          </Key>
+          <Property Name="AutoID" Type="Int32" Nullable="false" />
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="PopeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Pope" Type="Int32" />
+        </EntityType>
+        <EntityType Name="tb_visage">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="VisageName" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_wordpad">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="WORDPAD" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_workresume">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Stu_ID" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="BeginDate" Type="DateTime" />
+          <Property Name="EndDate" Type="DateTime" />
+          <Property Name="WorkUnit" Type="String" MaxLength="24" FixedLength="false" Unicode="false" />
+          <Property Name="Branch" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+          <Property Name="Business" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="db_pwmsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tb_addressbook" EntityType="Self.tb_addressbook" />
+          <EntitySet Name="tb_branch" EntityType="Self.tb_branch" />
+          <EntitySet Name="tb_business" EntityType="Self.tb_business" />
+          <EntitySet Name="tb_city" EntityType="Self.tb_city" />
+          <EntitySet Name="tb_culture" EntityType="Self.tb_culture" />
+          <EntitySet Name="tb_daywordpad" EntityType="Self.tb_daywordpad" />
+          <EntitySet Name="tb_duthcall" EntityType="Self.tb_duthcall" />
+          <EntitySet Name="tb_employee" EntityType="Self.tb_employee" />
+          <EntitySet Name="tb_employeename" EntityType="Self.tb_employeename" />
+          <EntitySet Name="tb_family" EntityType="Self.tb_family" />
+          <EntitySet Name="tb_folk" EntityType="Self.tb_folk" />
+          <EntitySet Name="tb_individual" EntityType="Self.tb_individual" />
+          <EntitySet Name="tb_laborage" EntityType="Self.tb_laborage" />
+          <EntitySet Name="tb_login" EntityType="Self.tb_login" />
+          <EntitySet Name="tb_popemodel" EntityType="Self.tb_popemodel" />
+          <EntitySet Name="tb_randp" EntityType="Self.tb_randp" />
+          <EntitySet Name="tb_rpkind" EntityType="Self.tb_rpkind" />
+          <EntitySet Name="tb_staffbasic" EntityType="Self.tb_staffbasic" />
+          <EntitySet Name="tb_trainnote" EntityType="Self.tb_trainnote" />
+          <EntitySet Name="tb_userpope" EntityType="Self.tb_userpope" />
+          <EntitySet Name="tb_visage" EntityType="Self.tb_visage" />
+          <EntitySet Name="tb_wordpad" EntityType="Self.tb_wordpad" />
+          <EntitySet Name="tb_workresume" EntityType="Self.tb_workresume" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="db_pwmsModelStoreContainer" CdmEntityContainer="db_pwmsEntities">
+          <EntitySetMapping Name="tb_addressbook">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_addressbook">
+              <MappingFragment StoreEntitySet="tb_addressbook">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="QQ" ColumnName="QQ" />
+                <ScalarProperty Name="WorkPhone" ColumnName="WorkPhone" />
+                <ScalarProperty Name="E_mail" ColumnName="E-mail" />
+                <ScalarProperty Name="Handset" ColumnName="Handset" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_branch">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_branch">
+              <MappingFragment StoreEntitySet="tb_branch">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_business">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_business">
+              <MappingFragment StoreEntitySet="tb_business">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_city">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_city">
+              <MappingFragment StoreEntitySet="tb_city">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BeAware" ColumnName="BeAware" />
+                <ScalarProperty Name="City" ColumnName="City" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_culture">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_culture">
+              <MappingFragment StoreEntitySet="tb_culture">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Culture" ColumnName="Culture" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_daywordpad">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_daywordpad">
+              <MappingFragment StoreEntitySet="tb_daywordpad">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BlotterDate" ColumnName="BlotterDate" />
+                <ScalarProperty Name="BlotterSort" ColumnName="BlotterSort" />
+                <ScalarProperty Name="Motif" ColumnName="Motif" />
+                <ScalarProperty Name="Wordpa" ColumnName="Wordpa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_duthcall">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_duthcall">
+              <MappingFragment StoreEntitySet="tb_duthcall">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="DuthcallName" ColumnName="DuthcallName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_employee">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_employee">
+              <MappingFragment StoreEntitySet="tb_employee">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_employeename">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_employeename">
+              <MappingFragment StoreEntitySet="tb_employeename">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_family">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_family">
+              <MappingFragment StoreEntitySet="tb_family">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Stu_ID" ColumnName="Stu_ID" />
+                <ScalarProperty Name="LeagueName" ColumnName="LeagueName" />
+                <ScalarProperty Name="Nexus" ColumnName="Nexus" />
+                <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+                <ScalarProperty Name="WorkUnit" ColumnName="WorkUnit" />
+                <ScalarProperty Name="Business" ColumnName="Business" />
+                <ScalarProperty Name="Visage" ColumnName="Visage" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_folk">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_folk">
+              <MappingFragment StoreEntitySet="tb_folk">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FolkName" ColumnName="FolkName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_individual">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_individual">
+              <MappingFragment StoreEntitySet="tb_individual">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Memo" ColumnName="Memo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_laborage">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_laborage">
+              <MappingFragment StoreEntitySet="tb_laborage">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Laborage" ColumnName="Laborage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_login">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_login">
+              <MappingFragment StoreEntitySet="tb_login">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Pass" ColumnName="Pass" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_popemodel">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_popemodel">
+              <MappingFragment StoreEntitySet="tb_popemodel">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="PopeName" ColumnName="PopeName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_randp">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_randp">
+              <MappingFragment StoreEntitySet="tb_randp">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Stu_ID" ColumnName="Stu_ID" />
+                <ScalarProperty Name="RPKind" ColumnName="RPKind" />
+                <ScalarProperty Name="SealMan" ColumnName="SealMan" />
+                <ScalarProperty Name="QuashDate" ColumnName="QuashDate" />
+                <ScalarProperty Name="QuashWhys" ColumnName="QuashWhys" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_rpkind">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_rpkind">
+              <MappingFragment StoreEntitySet="tb_rpkind">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="RPKind" ColumnName="RPKind" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_staffbasic">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_staffbasic">
+              <MappingFragment StoreEntitySet="tb_staffbasic">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="StaffName" ColumnName="StaffName" />
+                <ScalarProperty Name="Folk" ColumnName="Folk" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Culture" ColumnName="Culture" />
+                <ScalarProperty Name="Marriage" ColumnName="Marriage" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="Visage" ColumnName="Visage" />
+                <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+                <ScalarProperty Name="Workdate" ColumnName="Workdate" />
+                <ScalarProperty Name="WorkLength" ColumnName="WorkLength" />
+                <ScalarProperty Name="Employee" ColumnName="Employee" />
+                <ScalarProperty Name="Business" ColumnName="Business" />
+                <ScalarProperty Name="Laborage" ColumnName="Laborage" />
+                <ScalarProperty Name="Branch" ColumnName="Branch" />
+                <ScalarProperty Name="Duthcall" ColumnName="Duthcall" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Handset" ColumnName="Handset" />
+                <ScalarProperty Name="School" ColumnName="School" />
+                <ScalarProperty Name="Speciality" ColumnName="Speciality" />
+                <ScalarProperty Name="GraduateDate" ColumnName="GraduateDate" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Photo" ColumnName="Photo" />
+                <ScalarProperty Name="BeAware" ColumnName="BeAware" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="M_Pay" ColumnName="M_Pay" />
+                <ScalarProperty Name="Bank" ColumnName="Bank" />
+                <ScalarProperty Name="Pact_B" ColumnName="Pact_B" />
+                <ScalarProperty Name="Pact_E" ColumnName="Pact_E" />
+                <ScalarProperty Name="Pact_Y" ColumnName="Pact_Y" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_trainnote">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_trainnote">
+              <MappingFragment StoreEntitySet="tb_trainnote">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Stu_ID" ColumnName="Stu_ID" />
+                <ScalarProperty Name="TrainFashion" ColumnName="TrainFashion" />
+                <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="Speciality" ColumnName="Speciality" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_userpope">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_userpope">
+              <MappingFragment StoreEntitySet="tb_userpope">
+                <ScalarProperty Name="AutoID" ColumnName="AutoID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="PopeName" ColumnName="PopeName" />
+                <ScalarProperty Name="Pope" ColumnName="Pope" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_visage">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_visage">
+              <MappingFragment StoreEntitySet="tb_visage">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="VisageName" ColumnName="VisageName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_wordpad">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_wordpad">
+              <MappingFragment StoreEntitySet="tb_wordpad">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="WORDPAD" ColumnName="WORDPAD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_workresume">
+            <EntityTypeMapping TypeName="db_pwmsModel.tb_workresume">
+              <MappingFragment StoreEntitySet="tb_workresume">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Stu_ID" ColumnName="Stu_ID" />
+                <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="WorkUnit" ColumnName="WorkUnit" />
+                <ScalarProperty Name="Branch" ColumnName="Branch" />
+                <ScalarProperty Name="Business" ColumnName="Business" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

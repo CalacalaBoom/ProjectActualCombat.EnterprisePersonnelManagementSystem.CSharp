@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_pwmsModelStoreContainer" CdmEntityContainer="db_pwmsEntities">
+    <EntitySetMapping Name="tb_addressbook">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_addressbook">
+        <MappingFragment StoreEntitySet="tb_addressbook">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="QQ" ColumnName="QQ" />
+          <ScalarProperty Name="WorkPhone" ColumnName="WorkPhone" />
+          <ScalarProperty Name="E_mail" ColumnName="E-mail" />
+          <ScalarProperty Name="Handset" ColumnName="Handset" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_branch">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_branch">
+        <MappingFragment StoreEntitySet="tb_branch">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_business">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_business">
+        <MappingFragment StoreEntitySet="tb_business">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_city">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_city">
+        <MappingFragment StoreEntitySet="tb_city">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BeAware" ColumnName="BeAware" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_culture">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_culture">
+        <MappingFragment StoreEntitySet="tb_culture">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Culture" ColumnName="Culture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_daywordpad">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_daywordpad">
+        <MappingFragment StoreEntitySet="tb_daywordpad">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BlotterDate" ColumnName="BlotterDate" />
+          <ScalarProperty Name="BlotterSort" ColumnName="BlotterSort" />
+          <ScalarProperty Name="Motif" ColumnName="Motif" />
+          <ScalarProperty Name="Wordpa" ColumnName="Wordpa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_duthcall">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_duthcall">
+        <MappingFragment StoreEntitySet="tb_duthcall">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DuthcallName" ColumnName="DuthcallName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_employee">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_employee">
+        <MappingFragment StoreEntitySet="tb_employee">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_employeename">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_employeename">
+        <MappingFragment StoreEntitySet="tb_employeename">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_family">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_family">
+        <MappingFragment StoreEntitySet="tb_family">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Stu_ID" ColumnName="Stu_ID" />
+          <ScalarProperty Name="LeagueName" ColumnName="LeagueName" />
+          <ScalarProperty Name="Nexus" ColumnName="Nexus" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="WorkUnit" ColumnName="WorkUnit" />
+          <ScalarProperty Name="Business" ColumnName="Business" />
+          <ScalarProperty Name="Visage" ColumnName="Visage" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_folk">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_folk">
+        <MappingFragment StoreEntitySet="tb_folk">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FolkName" ColumnName="FolkName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_individual">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_individual">
+        <MappingFragment StoreEntitySet="tb_individual">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_laborage">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_laborage">
+        <MappingFragment StoreEntitySet="tb_laborage">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Laborage" ColumnName="Laborage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_login">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_login">
+        <MappingFragment StoreEntitySet="tb_login">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_popemodel">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_popemodel">
+        <MappingFragment StoreEntitySet="tb_popemodel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PopeName" ColumnName="PopeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_randp">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_randp">
+        <MappingFragment StoreEntitySet="tb_randp">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Stu_ID" ColumnName="Stu_ID" />
+          <ScalarProperty Name="RPKind" ColumnName="RPKind" />
+          <ScalarProperty Name="SealMan" ColumnName="SealMan" />
+          <ScalarProperty Name="QuashDate" ColumnName="QuashDate" />
+          <ScalarProperty Name="QuashWhys" ColumnName="QuashWhys" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_rpkind">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_rpkind">
+        <MappingFragment StoreEntitySet="tb_rpkind">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RPKind" ColumnName="RPKind" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_staffbasic">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_staffbasic">
+        <MappingFragment StoreEntitySet="tb_staffbasic">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StaffName" ColumnName="StaffName" />
+          <ScalarProperty Name="Folk" ColumnName="Folk" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Culture" ColumnName="Culture" />
+          <ScalarProperty Name="Marriage" ColumnName="Marriage" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Visage" ColumnName="Visage" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="Workdate" ColumnName="Workdate" />
+          <ScalarProperty Name="WorkLength" ColumnName="WorkLength" />
+          <ScalarProperty Name="Employee" ColumnName="Employee" />
+          <ScalarProperty Name="Business" ColumnName="Business" />
+          <ScalarProperty Name="Laborage" ColumnName="Laborage" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="Duthcall" ColumnName="Duthcall" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Handset" ColumnName="Handset" />
+          <ScalarProperty Name="School" ColumnName="School" />
+          <ScalarProperty Name="Speciality" ColumnName="Speciality" />
+          <ScalarProperty Name="GraduateDate" ColumnName="GraduateDate" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="BeAware" ColumnName="BeAware" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="M_Pay" ColumnName="M_Pay" />
+          <ScalarProperty Name="Bank" ColumnName="Bank" />
+          <ScalarProperty Name="Pact_B" ColumnName="Pact_B" />
+          <ScalarProperty Name="Pact_E" ColumnName="Pact_E" />
+          <ScalarProperty Name="Pact_Y" ColumnName="Pact_Y" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_trainnote">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_trainnote">
+        <MappingFragment StoreEntitySet="tb_trainnote">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Stu_ID" ColumnName="Stu_ID" />
+          <ScalarProperty Name="TrainFashion" ColumnName="TrainFashion" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Speciality" ColumnName="Speciality" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_userpope">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_userpope">
+        <MappingFragment StoreEntitySet="tb_userpope">
+          <ScalarProperty Name="AutoID" ColumnName="AutoID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PopeName" ColumnName="PopeName" />
+          <ScalarProperty Name="Pope" ColumnName="Pope" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_visage">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_visage">
+        <MappingFragment StoreEntitySet="tb_visage">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="VisageName" ColumnName="VisageName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_wordpad">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_wordpad">
+        <MappingFragment StoreEntitySet="tb_wordpad">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="WORDPAD" ColumnName="WORDPAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_workresume">
+      <EntityTypeMapping TypeName="db_pwmsModel.tb_workresume">
+        <MappingFragment StoreEntitySet="tb_workresume">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Stu_ID" ColumnName="Stu_ID" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="WorkUnit" ColumnName="WorkUnit" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="Business" ColumnName="Business" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
